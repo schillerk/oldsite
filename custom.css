@@ -1,0 +1,141 @@
+html, body {
+  height: 100%;
+}
+
+body {
+    background-image: url(catherine.jpg) ;
+    min-height: 400px;
+    background-position: top right;
+    background-repeat:  no-repeat;
+    background-attachment: absolute;
+    background-size:  cover;
+    background-color: white;
+}
+
+div, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  letter-spacing: 3px;
+  font-size: calc(20px + 2vw + 2vh);
+  line-height: calc(25px + 2vw + 2vh);
+  color: white;
+}
+
+h2  {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  color: white;
+}
+
+.introduction {
+  position: absolute;
+  top: calc(250px - 6vw);
+  left: calc(50px + 2vw);
+  width: 55%;
+  z-index: 100;
+}
+
+
+.title {
+  position: absolute;
+  top: 30px;
+  left: calc(50px + 2vw);
+  width: 45%;
+  z-index: 100;
+}
+
+.text2 {
+  color: black;
+}
+
+.fullscreen-buffer {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%
+}
+
+.row {
+  position: relative;
+  background: white;
+  width: 100%;
+  height: 700px;
+}
+
+.footer {
+  position: relative;
+  background: #273550;
+  width: 100%;
+  height: 150px;
+}
+
+.footer-text {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  top: 30px;
+  position: relative;
+}
+
+.second {
+  background: rgb(249, 214, 51);
+}
+
+.third {
+  background: #A393BF;
+  opacity: .5;
+}
+
+.icon {
+  width: 40px;
+  margin: 25px;
+}
+
+.icons {
+  margin: auto;
+  width: 280px;
+  position: relative;
+  bottom: -25px;
+}
+
+.logo2 {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  z-index: 100;
+  height: calc(50px + 2vw);
+}
+
+.logo4 {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  z-index: 100;
+  height: calc(150px + 2vw);
+}
+
+.logo5 {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  z-index: 100;
+  height: calc(30px + 2vw);
+}
+
+
+.picture {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.picture3 {
+  background: #A7CECB;
+  opacity: .5;
+}
